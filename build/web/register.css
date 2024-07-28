@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+h2{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.con{ 
+    margin: 150px 690px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color:gainsboro;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.my{
+    font-size: 20px;
+   /*font-family: "Roboto Slab", serif;*/
+   font-family: "Source Code Pro", monospace;
+    /*font-family: Arial, sans-serif;*/
+}
+input{
+   width: 300px;
+   height: 30px;
+   font-size: 15px;
+        font-family: "Source Code Pro", monospace;
+}
+.frm input{
+    margin: 14px;
+}
+ #submit{
+     padding: 10px 35px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+     font-family: "Pacifico", cursive;
+}
